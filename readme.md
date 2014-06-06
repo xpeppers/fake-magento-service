@@ -1,10 +1,13 @@
 ### fake magento service
-A fake service for dynamic url redirection testing
+a fake service for dynamic url redirection.
 
-### requirements
-- node.js
-
-### usage
 ```
+# you can use either node or node-dev with custom arguments
+node index.js [port] [url]
+
+# [port] specifies the port on which the http server is running
+# [url] specifies the url
+
+# or run default settings using npm directly
 npm start
 ```
