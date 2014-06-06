@@ -17,4 +17,4 @@ http.createServer(function(req, res){
   res.end()
 }).listen(port)
 
-console.log('[init] fake service is listening on port %d and signalling $s...', port, link)
+console.log('[init] fake service is listening on port %d and forwarding %s ...', port, link)
