@@ -1,0 +1,21 @@
+{
+  "name": "setefi-magento-service",
+  "version": "0.0.0",
+  "description": "A fake service for dynamic url redirection testing",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "command -v node-dev > /dev/null 2>&1 && node-dev index.js || { command -v node > /dev/null 2>&1 && node index.js || { echo \"error: node is not installed on this computer\"; } }",
+    "test": "echo \"error: no tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xpeppers/fake-magento-service.git"
+  },
+  "author": "Ivo von Putzer Reibegg <ivo.putzer@xpeppers.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpeppers/fake-magento-service/issues"
+  },
+  "homepage": "https://github.com/xpeppers/fake-magento-service"
+}

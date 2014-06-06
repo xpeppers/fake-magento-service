@@ -1,2 +1,10 @@
-# setefi magento service
-fake service for magento in order to test dynamic url redirection
+### fake magento service
+A fake service for dynamic url redirection testing
+
+### requirements
+- node.js
+
+### usage
+```
+npm start
+```
